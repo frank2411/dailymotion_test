@@ -1,6 +1,18 @@
 # dailymotion_test
 
-Test API endpoints.
+
+# Build the container
+
+sudo docker build --tag=dailymotiontest .
+
+sudo docker run --net=host -p 7777 dailymotiontest
+
+I've used the --net=host option because I wanted to use my already installed ( locally ) mysql database.
+
+You can connect to the container with https://localhost:7777/.
+
+
+# Test API endpoints.
 
 /playlist-delete/<playlist_id:int>/video/<video_id:int>/
 
@@ -19,3 +31,6 @@ Test API endpoints.
 /playlist/<playlist_id:int>/
 
 /playlist/<playlist_id:int>/videos/
+
+
+
