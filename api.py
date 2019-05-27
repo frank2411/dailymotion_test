@@ -154,4 +154,4 @@ def playlist_videos(playlist_id):
 
 
 if __name__ == "__main__":
-    run(host='localhost', port=7777, debug=True)
+    run(host='0.0.0.0', port=7777, debug=True)
