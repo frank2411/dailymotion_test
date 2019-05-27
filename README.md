@@ -11,6 +11,10 @@ I've used the --net=host option because I wanted to use my already installed ( l
 
 You can connect to the container with http://localhost:7777/.
 
+Some of the endpoints below are accessible via GET requests. The dispositive ones via POST.
+
+You can use curl or any other client to interact with these basic APIs.
+
 
 # Test API endpoints.
 
