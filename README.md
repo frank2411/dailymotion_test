@@ -9,7 +9,7 @@ sudo docker run --net=host -p 7777 dailymotiontest
 
 I've used the --net=host option because I wanted to use my already installed ( locally ) mysql database.
 
-You can connect to the container with https://localhost:7777/.
+You can connect to the container with http://localhost:7777/.
 
 
 # Test API endpoints.
